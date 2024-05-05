@@ -37,6 +37,7 @@ public class Main {
                         if (campeonato.getPartidasRestantes() == 0) {
                             JOptionPane.showMessageDialog(null, "Fim do campeonato!");
                             JOptionPane.showMessageDialog(null, campeonato.imprimirCampeao());
+                            control = false;
                         }
                     } catch (Exception e) {
                         JOptionPane.showMessageDialog(null, e.getMessage());
